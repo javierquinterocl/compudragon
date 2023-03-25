@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 22pt;
+
+}
+
+.Logo{
+  text-align: justify;
+  top: 80px;
+  bottom:0px ;
+    
+}
+#image{
+    width: 95px;
+    display: flex;
+    height: 95px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    border-color: brown;
+    transform: translateY(-190%);
+    transition: background-color 0.9s ease-in-out;
+}
+
+#image:hover{
+    background-color: rgb(243, 15, 15);
+    
+}
+
+.Titulo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 251, 251);
+    background-color: rgb(255, 85, 85);
+    font-size: 26pt;
+   
+    border-radius: 200px;
+    
+}
+#jo{
+    transform: translateX(8%);
+}
+.Monitores{
+    background-color: rgb(233, 73, 73);
+    border-radius: 240px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+#categoria1{
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       color: rgb(255, 255, 255);
+       font-size: 16pt;
+       text-align: center;
+       right: 18px;
+       left: 200px;
+       
+}
+.table{
+    transform: translateY(-290%);
+    background-color: rgb(233, 103, 103);
+    border-color: aliceblue;
+    
+}
+
+#categoria1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(255, 99, 99);
+    transition: background-color 0.5s ease-in-out;
+    transition: color 0.5s ease-in-out;
+    border-color: brown;
+    
+}
+#categoria1:hover{
+    background-color: rgb(240, 224, 224);
+    color: rgb(36, 36, 36);
+}
+.vne{
+    display: grid;
+    place-content: center;
+    transform: translateX(23%);
+}
+.container{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    border-radius: 50%;
+    transition: background-color 0.7s ease-in-out;
+}
+.container:hover{
+    background-color: blueviolet;
+
+}
+
